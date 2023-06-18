@@ -1319,7 +1319,7 @@ if err == False:
         print("stack", stack)
         print("remaining", remaining, "\n")
 
-    if stack[0] == "#":
+    if len(stack) == 1:
         state = "f"
     stack.pop()
     print(top_of_stack)
